@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFE9E7"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="580dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="0dp"
+    android:background="#FFE9E7"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/edittxt_round_corner"
+        android:ems="10"
+        android:fontFamily="@font/candara_light"
+        android:textAlignment="center"
+        android:textColor="#515151" />
+
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="415dp"
+        android:background="@drawable/edittxt_round_corner"
+        android:ems="10"
+        android:fontFamily="@font/candara_light"
+        android:textAlignment="center"
+        android:textColor="#515151" />
+
+
+     <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/btn_round_corner"
+        android:fontFamily="@font/candara"
+        android:textSize="20dp"
+        android:text="@string/login"
+
+        android:textColor="#222523" />
+
+    <TextView
+        android:id="@+id/textViewAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/candara_light"
+        android:text="@string/UserName"
+        android:textColor="#222523"
+        android:textSize="18dp" />
+
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="535dp"
+        android:fontFamily="@font/candara_light"
+        android:text="@string/not_registered"
+        android:textColor="#222523"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <TextView
+        android:id="@+id/textViewAddress22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="385dp"
+        android:textSize="18dp"
+        android:fontFamily="@font/candara_light"
+        android:text="@string/password1"
+        android:textColor="#222523" />
+
+    <TextView
+        android:id="@+id/textview_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="535dp"
+        android:fontFamily="@font/candara_light"
+        android:paddingLeft="30dp"
+        android:text="@string/register"
+        android:textColor="#222523"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/newhomeimage2" />
+
+
+</RelativeLayout>
+</ScrollView>
+

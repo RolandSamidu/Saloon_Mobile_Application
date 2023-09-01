@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9E7">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenStyle">
+
+    <ImageButton
+        android:id="@+id/imageButtonwomen20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/mencutfinal" />
+
+    <ImageButton
+        android:id="@+id/imageButtonthreading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/beared" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpiercing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/haircoloring" />
+
+    <ImageButton
+        android:id="@+id/imageButtonwomen4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/hairrelaxing" />
+
+    <ImageButton
+        android:id="@+id/imageButtonwomen5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="355dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/headmassage" />
+
+    <ImageButton
+        android:id="@+id/imageButtonwomen6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/hairperming" />
+
+    <ImageButton
+        android:id="@+id/imageButtonwomen7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="525dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/mensetting" />
+        
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9E7">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        tools:context=".Men_Cut">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp">
+
+            <ViewFlipper
+                android:id="@+id/bckgrndViewFlipper3"
+                android:layout_width="400dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:id="@+id/bckgrndImageView8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/dow4" />
+
+                <ImageView
+                    android:id="@+id/bckgrndImageView7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/dow6" />
+
+                <ImageView
+                    android:id="@+id/bckgrndImageView6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/dow5" />
+
+
+
+            </ViewFlipper>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="360dp"
+            android:background="?android:attr/listDivider" />
+
+
+        <TextView
+            android:id="@+id/textViewUpdateDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="325dp"
+            android:fontFamily="@font/candara_light"
+            android:text="@string/full_dressing"
+            android:textColor="#ff7558"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewUpdateDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="360dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Choosing a wedding outfit is such a milestone in the wedding planning process, that even the couples who chose to scale down their celebrations didn't skimp on fashion. Whether it was opting for a sublimely  lace shift dress instead Srilankan or Indian saree, 2020 brides were up against a lot of challenges and showed tremendous creativity and resilience as they plotted a new course.
+"           android:textColor="#222523"
+            android:textSize="19dp" />
+
+
+        <TextView
+            android:id="@+id/textViewUpdateDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="570dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Ready to see our favorite wedding dresses? We rounded up 30 of this year's most fashionable looks.
+"           android:textColor="#222523"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/button_register1"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="655dp"
+            android:background="@drawable/btn_round_corner"
+            android:fontFamily="@font/candara"
+            android:hint="@string/appoinmentnew2"
+            android:textSize="20dp"
+            android:textColor="#222523" />
+
+
+        <ImageView
+            android:id="@+id/gallary1"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="730dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dow7" />
+        <ImageView
+            android:id="@+id/gallary2"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="730dp"
+            android:layout_marginLeft="210dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dow4" />
+
+        <ImageView
+            android:id="@+id/gallary3"
+            android:layout_width="230dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="940dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dow3" />
+        <ImageView
+            android:id="@+id/gallary4"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="940dp"
+            android:layout_marginLeft="249dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dow2" />
+
+        <ImageView
+            android:id="@+id/gallary5"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="1090dp"
+            android:layout_marginLeft="249dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/dow6"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

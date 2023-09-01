@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9E7">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="600dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="30dp"
+    tools:context=".Apoinment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="0dp"
+        android:paddingTop="20dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="50dp">
+
+
+        <TextView
+            android:id="@+id/textViewAddress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Name"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+
+        <EditText
+            android:id="@+id/editTextapoinmentname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittxt_round_corner"
+            android:ems="10"
+            android:fontFamily="@font/candara_light"
+            android:inputType="textPostalAddress"
+            android:textAlignment="center"
+            android:textColor="#515151" />
+
+        <TextView
+            android:id="@+id/textViewAddress3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Gender"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+
+
+        <EditText
+            android:id="@+id/editTextAddress3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittxt_round_corner"
+            android:ems="10"
+            android:fontFamily="@font/candara_light"
+            android:inputType="textPostalAddress"
+            android:textAlignment="center"
+
+            android:textColor="#515151" />
+
+        <TextView
+            android:id="@+id/textViewAddress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Select Your Apoinment"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+        <!--
+
+ <EditText
+        android:id="@+id/editTextAddress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittxt_round_corner"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="57dp"
+        android:textColor="#515151"
+        tools:layout_editor_absoluteY="203dp" />
+-->
+
+        <Spinner
+            android:id="@+id/spMonths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittxt_round_corner"
+            android:ems="10"
+            android:entries="@array/Spinner_items"
+            android:inputType="textPostalAddress"
+            android:textColor="#515151"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="57dp" />
+
+
+        <TextView
+            android:id="@+id/textViewTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Telephone"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+
+        <EditText
+            android:id="@+id/editTextTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittxt_round_corner"
+            android:ems="10"
+            android:fontFamily="@font/candara_light"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="#515151" />
+
+        <TextView
+            android:id="@+id/textViewReqDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Required Date"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittxt_round_corner"
+            android:ems="10"
+            android:fontFamily="@font/candara_light"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColor="#515151" />
+
+
+        <TextView
+            android:id="@+id/textViewReqTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/candara_light"
+            android:text="@string/required_time"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_time"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/edittxt_round_corner"
+            android:ems="10"
+            android:layout_below="@+id/in_date"
+            android:fontFamily="@font/candara_light"
+            android:inputType="date"
+            android:textColor="#515151"/>
+
+        <TextView
+            android:id="@+id/textViewEmail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Email"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/candara_light"
+            android:text="txt@gmail.com"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/candara_light"
+            android:text="Order Date"
+            android:textSize="18dp"
+            android:textColor="#222523" />
+
+        <TextView
+            android:id="@+id/textViewDateDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/candara_light"
+            android:text="2020/12/10"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:background="@drawable/btn_round_corner"
+            android:fontFamily="@font/candara"
+            android:text="Submit Apoinment"
+
+            android:textColor="#222523" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

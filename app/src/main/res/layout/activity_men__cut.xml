@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9E7">
+<RelativeLayout
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Men_Cut">
+
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="300dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp">
+
+  <ViewFlipper
+      android:id="@+id/bckgrndViewFlipper1"
+      android:layout_width="400dp"
+      android:layout_height="300dp">
+
+    <ImageView
+        android:id="@+id/bckgrndImageView8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mencut1" />
+
+    <ImageView
+        android:id="@+id/bckgrndImageView7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mencut2" />
+
+    <ImageView
+        android:id="@+id/bckgrndImageView6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mencut3" />
+
+    <ImageView
+        android:id="@+id/bckgrndImageView5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mencut4" />
+
+    <ImageView
+        android:id="@+id/bckgrndImageView4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mencut7" />
+
+    <ImageView
+        android:id="@+id/bckgrndImageView3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mencut6" />
+
+    <ImageView
+        android:id="@+id/bckgrndImageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mencut7" />
+
+
+  </ViewFlipper>
+</LinearLayout>
+
+  <View
+      android:id="@+id/divider"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginTop="360dp"
+      android:background="?android:attr/listDivider" />
+
+  <TextView
+      android:id="@+id/textViewUpdateDescription"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="325dp"
+      android:fontFamily="@font/candara_light"
+      android:text="@string/men_cut_gallary"
+      android:textColor="#ff7558"
+      android:textSize="25dp" />
+
+
+  <TextView
+      android:id="@+id/textViewUpdateDescription1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="365dp"
+      android:fontFamily="@font/candara_light"
+      android:text="Get expert advice and learn how to achieve today's latest hairstyles and hottest trends. Discover long, medium length and short hairstyles to find the best look for your hair length."
+      android:textColor="#ff7558"
+      android:textSize="19dp" />
+  <ImageView
+      android:id="@+id/gallary1"
+      android:layout_width="190dp"
+      android:layout_height="200dp"
+      android:layout_marginTop="490dp"
+      android:layout_marginLeft="10dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/mencut7" />
+  <ImageView
+      android:id="@+id/gallary2"
+      android:layout_width="190dp"
+      android:layout_height="200dp"
+      android:layout_marginTop="490dp"
+      android:layout_marginLeft="210dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/mencut1" />
+
+  <ImageView
+      android:id="@+id/gallary3"
+      android:layout_width="230dp"
+      android:layout_height="250dp"
+      android:layout_marginTop="700dp"
+      android:layout_marginLeft="10dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/mencut3" />
+  <ImageView
+      android:id="@+id/gallary4"
+      android:layout_width="150dp"
+      android:layout_height="140dp"
+      android:layout_marginTop="700dp"
+      android:layout_marginLeft="249dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/mencut5" />
+
+  <ImageView
+      android:id="@+id/gallary5"
+      android:layout_width="150dp"
+      android:layout_height="140dp"
+      android:layout_marginTop="850dp"
+      android:layout_marginLeft="249dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/mencut6" />
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

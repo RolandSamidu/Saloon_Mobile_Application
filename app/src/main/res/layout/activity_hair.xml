@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9E7">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:context=".MenStyle">
+
+        <ImageView
+            android:id="@+id/imageButtonstraighhair"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/but1" />
+
+        <ImageView
+            android:id="@+id/imageButtonthreading"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/but2" />
+
+        <ImageView
+            android:id="@+id/imageButtonpiercing"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="185dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pirture99" />
+
+
+    </RelativeLayout>
+</ScrollView>

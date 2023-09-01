@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saloonapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon87"
+        android:label="STYLIN"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Add_Location"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".NewBeautyTips" />
+        <activity android:name=".Threading" />
+        <activity android:name=".Waxing" />
+        <activity android:name=".Picrcing" />
+        <activity android:name=".Manicure" />
+        <activity android:name=".canceldate" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/menu_setdate" />
+
+        <activity android:name=".Straighten_Hair" />
+        <activity android:name=".CleanUp" />
+        <activity android:name=".Select_date" />
+        <activity android:name=".Bridal" />
+        <activity android:name=".Beauty" />
+        <activity android:name=".Hair" />
+        <activity android:name=".hair_beauty_bridle" />
+        <activity android:name=".beauty_tips" />
+        <activity android:name=".Spiner" />
+        <activity android:name=".Full_dressing" />
+        <activity android:name=".Apoinment" />
+        <activity android:name=".Men_Cut" />
+        <activity android:name=".WomenStyle" />
+        <activity android:name=".MenStyle" />
+        <activity android:name=".Contact_Us" />
+        <activity android:name=".DeleteUser" />
+        <activity android:name=".ProfileSetting" />
+        <activity android:name=".Flashhome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditProfile" />
+        <activity android:name=".LoginRegisterDb$Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

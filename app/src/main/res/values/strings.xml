@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">SaloonApp</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="not_registered">Not registered ?</string>
+    <string name="create_new_account">Create New Account</string>
+
+    <string name="username1">Username</string>
+    <string name="phonenumber">PhoneNumber</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register1">Register</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="login1">Login</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="men">Men Style</string>
+    <string name="wemen">Women Style</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="appoinment">Appoinment</string>
+    <string name="update_account">Update Account</string>
+    <string name="update">Update</string>
+    <string name="logout">Logout</string>
+
+    <string name="change_user_details">Change User Details</string>
+    <string name="delete_profile">Delete Profile</string>
+
+    <string name="deactivate">Deactivate</string>
+    <string name="UserName">User Name</string>
+    <string name="men_cut_gallary">Men Cut Gallary</string>
+    <string name="men_cut_gallary_description">men_cut_gallary_description</string>
+    <string name="full_dressing">Full Dressing</string>
+    <string name="beauty_tips">Beauty Tips</string>
+
+    <string name="beauty_tips1">Quick Curls for long hair</string>
+    <string name="beauty_tips2">Self-tan in 15 minutes</string>
+    <string name="beauty_tips3">Removing dark circles </string>
+    <string name="beauty_tips4">Moisturize your skin correctly</string>
+    <string name="beauty_tips5">Quick restoring masks</string>
+    <string name="beauty_tips6">Get rid of blackheads in 10 minutes</string>
+    <string name="beauty_tips7">A mask for radiant skin</string>
+    <string name="make_an_appoinment">Make an Appoinment</string>
+    <string name="apoinment">Apoinment</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="phone">Phone</string>
+    <string name="requirst_date">Requirst date</string>
+    <string name="password1">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password3">Password</string>
+    <string name="id">ID</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="required_time">Required Time</string>
+    <string name="clean_upede">Clean Up</string>
+    <string name="straighten_hairswsw">Straighten Hair</string>
+    <string name="appoinmentnew">APPOINMENT</string>
+    <string name="appoinmentnew2">APPOINMENT</string>
+    <string name="appoinmentnew3">APPOINMENT</string>
+    <string name="manicuresw">Manicure</string>
+    <string name="waxingwsw">Waxing</string>
+
+    <string-array name="Spinner_items">
+        <item>Men Cut</item>
+        <item>Beard</item>
+        <item>Coloring</item>
+        <item>Hair Relaxing</item>
+        <item>Head Massages</item>
+        <item>Full Dressing</item>
+        <item>Waxing</item>
+        <item>Hair Strait</item>
+    </string-array>
+    <string name="title_activity_threading">Threading</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="threadingdcd">Threading</string>
+    <string name="picrcingexex">Picrcing</string>
+    <string name="threadingeddw">Threading</string>
+    <string name="threadingqwsdqw">Threading</string>
+    <string name="choose_image">CHOOSE IMAGE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Location">location</string>
+    <string name="AddLocation">Add_Location</string>
+    <string name="v2">V2</string>
+    <string name="v1">V1</string>
+    <string name="v1location">v1</string>
+    <string name="v2location">v2</string>
+    <string name="shop_name">Shop Name</string>
+</resources>

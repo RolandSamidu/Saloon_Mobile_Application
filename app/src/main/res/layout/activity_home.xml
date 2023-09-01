@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9E7">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="580dp"
+    tools:context=".LoginRegisterDb$Home">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="#FFE9E7">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80.4dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/newtips"
+            app:shapeAppearance="@style/roundimageview"/>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView4"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            app:srcCompat="@drawable/new1"-->
+<!--            tools:layout_editor_absoluteX="42dp"-->
+<!--            tools:layout_editor_absoluteY="134dp"/>-->
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView6"
+            android:layout_width="80.4dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/newappoinment"
+            app:shapeAppearance="@style/roundimageview" />
+
+        <!--<ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/new2"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="134dp" />-->
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView7"
+            android:layout_width="80.4dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/newcontactus"
+            app:shapeAppearance="@style/roundimageview"/>
+
+     <!--   <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/new3"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="134dp" />-->
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80.4dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/newbeautytips"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"
+            app:shapeAppearance="@style/roundimageview"/>
+
+    <!--    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/new4"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="134dp" />
+-->
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="105dp">
+
+
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper1"
+            android:layout_width="wrap_content"
+            android:layout_height="135dp">
+
+            <ImageView
+                android:id="@+id/bckgrndImageView8"
+                android:layout_width="340dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l1" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView7"
+                android:layout_width="340dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l2" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView9"
+                android:layout_width="340dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l3" />
+
+        </ViewFlipper>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewUpdateDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="270dp"
+        android:fontFamily="@font/candara_light"
+        android:text="@string/make_an_appoinment"
+        android:textColor="#222523"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageButtonwomen20"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/newhair" />
+
+    <ImageView
+        android:id="@+id/imageButtonthreading"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/newbeauty" />
+
+    <ImageView
+        android:id="@+id/imageButtonpiercing"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/newbridle" />
+
+</RelativeLayout>
+</ScrollView>
